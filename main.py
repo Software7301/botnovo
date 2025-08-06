@@ -3,6 +3,7 @@
 import discord
 from discord.ext import commands
 import json
+import os
 from datetime import datetime
 
 # Configurações do bot

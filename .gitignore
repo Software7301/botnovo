@@ -1,52 +1,33 @@
-# Arquivos de configuração com tokens
-config.json
-
-# Arquivos Python
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
-
-# Distribuição / empacotamento
 .Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-
-# PyInstaller
-*.manifest
-*.spec
-
-# Ambientes virtuais
-.env
-.venv
 env/
 venv/
+.venv/
 ENV/
 env.bak/
 venv.bak/
 
-# IDEs
+# Environment variables
+.env
+.env.local
+.env.production
+
+# IDE
 .vscode/
 .idea/
 *.swp
 *.swo
 
+# OS
+.DS_Store
+Thumbs.db
+
 # Logs
 *.log
 
-# Arquivos temporários
-*.tmp
-*.temp 
+# Config files (for security)
+config.json 
