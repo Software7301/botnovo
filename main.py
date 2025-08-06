@@ -1,5 +1,4 @@
-# Desabilitar áudio completamente
-import disable_audio
+
 
 import discord
 from discord.ext import commands
